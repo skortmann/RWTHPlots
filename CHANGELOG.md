@@ -5,3 +5,7 @@
 ### Added or Changed
 
 - Uploaded code
+
+### Deleted
+
+- Readme Template
