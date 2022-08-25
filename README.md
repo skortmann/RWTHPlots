@@ -1,4 +1,4 @@
-# cmap_rwth_colours
+# Colormap with RWTH colors for Matplotlib
 Adding cmap with RWTH Aachen University colous to matplotlib
 
 <!-- GETTING STARTED -->
