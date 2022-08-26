@@ -8,9 +8,12 @@ These are the corporate design colors at RWTH Aachen University.
 
 ### Installation
 
-1. Copy the python file.
-
-
+1. Clone project
+2. Navigate in Terminal to folder
+3. Install using 
+```sh
+python setup.py install
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
