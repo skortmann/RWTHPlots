@@ -13,6 +13,17 @@ Institut für Elektrische Anlagen und Netze, Digitalisierung und Energiewirtscha
 (c) 2022, Steffen Kortmann
 """
 
+# release note: certain charcters need special escaping such as
+# $ % & ~ ^ \ { } \( \) \[ \]
+
+"""
+Temporary styling
+
+with plt.style.context('dark_background'):
+    plt.plot(np.sin(np.linspace(0, 2 * np.pi)), 'r-o')
+plt.show()
+"""
+
 import atexit
 import glob
 import os
