@@ -9,6 +9,11 @@ Created on Thu Aug 25 18:52:08 2022
 """
 Definition of RWTH colour schemes for lines and maps.
 
+# Change default colorset (for lines) and colormap (for maps).
+plt.rc('axes', prop_cycle=plt.cycler('color', list(rwth_cset('rwth_100'))))
+plt.cm.register_cmap('standard_RWTH_discrete', rwth_cmap('standard_RWTH_discrete'))
+plt.rc('image', cmap='standard_RWTH_discrete')
+
 Institut für Elektrische Anlagen und Netze, Digitalisierung und Energiewirtschaft (IAEW)
 (c) 2022, Steffen Kortmann
 """
@@ -494,11 +499,6 @@ def rwth_cset(colorset=None):
 def main():
 
     from matplotlib import pyplot as plt
-
-    # Change default colorset (for lines) and colormap (for maps).
-    # plt.rc('axes', prop_cycle=plt.cycler('color', list(rwth_cset('rwth_100'))))
-    # plt.cm.register_cmap('standard_RWTH_discrete', rwth_cmap('standard_RWTH_discrete'))
-    # plt.rc('image', cmap='standard_RWTH_discrete')
 
     # Show colorsets rwth_cset(<scheme>).
     schemes = rwth_cset()
