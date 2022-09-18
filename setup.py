@@ -84,7 +84,7 @@ setup(
         "matplotlib-styles",
         "python"
     ],
-    url="https://github.com/skortmann/cmap_rwth_colours",
+    url="https://github.com/skortmann/RWTHPlots",
     install_requires=['matplotlib', ],
     cmdclass={'install': PostInstallMoveFile, },
 )
