@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Aug 25 18:52:08 2022
-
-@author: sk516212
-"""
 
 """
 Definition of RWTH colour schemes for lines and maps.
@@ -13,6 +8,8 @@ Definition of RWTH colour schemes for lines and maps.
 plt.rc('axes', prop_cycle=plt.cycler('color', list(rwth_cset('rwth_100'))))
 plt.cm.register_cmap('standard_RWTH_discrete', rwth_cmap('standard_RWTH_discrete'))
 plt.rc('image', cmap='standard_RWTH_discrete')
+
+all credits go out to Paul Tol //personal.sron.nl/~pault/
 
 Institut für Elektrische Anlagen und Netze, Digitalisierung und Energiewirtschaft (IAEW)
 (c) 2022, Steffen Kortmann

@@ -1,0 +1,39 @@
+# Matplotlib style for Microsoft Word
+
+# Set color cycle: blue, black, magenta, yellow, petrol, turquoise, green, maygreen, orange, red, bordeaux, violet, purple
+axes.prop_cycle : cycler('color', ['00549F', '000000', 'E30066', 'FFED00', '006165', '0098A1', '57AB27', 'BDCD00', 'F6A800', 'CC071E', 'A11035', '612158', '7A6FAC'])
+
+# Set default figure size
+figure.figsize : 8, 6
+
+# Set x axis
+xtick.major.size : 6
+xtick.major.width : 1
+xtick.minor.size : 3
+xtick.minor.width : 1
+
+# Set y axis
+ytick.major.size : 6
+ytick.major.width : 1
+ytick.minor.size : 3
+ytick.minor.width : 1
+
+# Fontsizes
+xtick.labelsize : 16
+ytick.labelsize : 16
+legend.fontsize : 16
+legend.title_fontsize : 16
+axes.titlesize : 16
+axes.labelsize : 16
+
+# Set line widths
+axes.linewidth : 1
+grid.linewidth : 1
+lines.linewidth : 2.
+
+# Use sans-serif fonts
+font.family : sans-serif
+mathtext.fontset : dejavusans
+
+# Use LaTeX for math formatting
+text.usetex : False

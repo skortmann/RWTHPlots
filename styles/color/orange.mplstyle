@@ -1,0 +1,2 @@
+# Set color cycle
+axes.prop_cycle : cycler('color', ['F6A800', 'FABE50', 'FDD48F', 'FEEAC9', 'FFF7EA'])

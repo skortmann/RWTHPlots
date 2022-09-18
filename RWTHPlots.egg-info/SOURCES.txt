@@ -1,0 +1,12 @@
+.DS_Store
+CHANGELOG.md
+LICENSE.txt
+README.md
+Vorgaben_Farben_26_11_2013.pdf
+cmap.py
+setup.py
+RWTHPlots.egg-info/PKG-INFO
+RWTHPlots.egg-info/SOURCES.txt
+RWTHPlots.egg-info/dependency_links.txt
+RWTHPlots.egg-info/requires.txt
+RWTHPlots.egg-info/top_level.txt

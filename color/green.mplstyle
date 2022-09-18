@@ -1,2 +1,0 @@
-# Set color cycle
-axes.prop_cycle : cycler('color', ['#57AB27', '#8DC060', '#B8D698', '#DDEBCE', '#F2F7EC'])
