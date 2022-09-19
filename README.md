@@ -12,8 +12,15 @@ These are the corporate design colors at RWTH Aachen University.
 * navigate to folder
   ```sh
   pip install -e .
+  
+  # to check succesful installation
+  import matplotlib.pyplot as plt
+  plt.style.available
+  # for simple usage
+  import matplotlib.pyplot as plt
+  plt.style.use('rwth-latex')
   ```
-* then set cmap for each python plot created with matplotlib to 'extended_RWTH_discrete'
+*
 
 
 
