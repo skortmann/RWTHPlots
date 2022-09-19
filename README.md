@@ -1,5 +1,5 @@
 # Colormap with RWTH colors for Matplotlib
-Adding cmap with RWTH Aachen University colous to matplotlib
+Adding formatting with RWTH Aachen University colous to matplotlib
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -8,7 +8,8 @@ These are the corporate design colors at RWTH Aachen University.
 
 ### Installation
 
-1. Copy the python file.
+# Installation via
+pip install -e .
 
 
 
