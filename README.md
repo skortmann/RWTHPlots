@@ -9,7 +9,11 @@ These are the corporate design colors at RWTH Aachen University.
 ### Installation
 
 # Installation via
-pip install -e .
+* navigate to folder
+  ```sh
+  pip install -e .
+  ```
+* then set cmap for each python plot created with matplotlib to 'extended_RWTH_discrete'
 
 
 
